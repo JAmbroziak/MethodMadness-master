@@ -26,6 +26,20 @@ public class JAmbroziakLib {
     {
         int subStart = main.indexOf(sub);
         int subEnd = subStart + sub.length();
+        if(main.indexOf(sub) == -1)
+        {
+            return main;
+        }
         return (main.substring(0, subStart) + main.substring(subEnd));
+    }
+
+    public static int sumUpTo(int n)
+    {
+        int sum = 0;
+        for(int i = 0; i<n+1; i++)
+        {
+            sum+=i;
+        }
+        return sum;
     }
 }
