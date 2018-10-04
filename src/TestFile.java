@@ -7,6 +7,6 @@ public class TestFile {
         System.out.println(JAmbroziakLib.isPalindrome("racecar"));
         System.out.println(JAmbroziakLib.dateStr("03/13/2001"));
         System.out.println(JAmbroziakLib.cutOut("walkie-talkie", "walk"));
-        System.out.println(JAmbroziakLib.sumUpTo(7));
+        System.out.println(JAmbroziakLib.sumUpTo(5));
     }
 }
