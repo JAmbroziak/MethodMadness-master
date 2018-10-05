@@ -8,5 +8,6 @@ public class TestFile {
         System.out.println(JAmbroziakLib.dateStr("03/13/2001"));
         System.out.println(JAmbroziakLib.cutOut("walkie-talkie", "walk"));
         System.out.println(JAmbroziakLib.sumUpTo(5));
+        System.out.println(JAmbroziakLib.isFibonacci(6));
     }
 }

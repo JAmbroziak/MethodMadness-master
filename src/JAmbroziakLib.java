@@ -42,4 +42,18 @@ public class JAmbroziakLib {
         }
         return sum;
     }
+
+    public static int isFibonacci(int n)
+    {
+        int a = 0;
+        int b = 1;
+        int fibo = 0;
+        for(int i = 0; i<n-1; i++)
+        {
+            fibo = (a+b);
+            a = b;
+            b = fibo;
+        }
+        return fibo;
+    }
 }
